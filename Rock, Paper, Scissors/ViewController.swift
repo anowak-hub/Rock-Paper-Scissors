@@ -10,10 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+//MARK: - UIOutlets, Variables, Constants, etc.
+    
+    @IBOutlet weak var winnerLabel: UILabel!
+    
+    
+
+//MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    
+    
+    
     }
+//MARK: - Actions, Functions, etc.
+
+
+
 
 
 }
