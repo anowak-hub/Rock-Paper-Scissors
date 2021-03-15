@@ -14,19 +14,38 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var winnerLabel: UILabel!
     
+    @IBOutlet weak var playerImageView: UIImageView!
     
-
-//MARK: - ViewDidLoad
+    @IBOutlet weak var computerImageView: UIImageView!
+    
+    @IBOutlet var choicesImageViews: [UIImageView]!
+    
+    @IBOutlet weak var choiceStackView: UIStackView!
+    
+    
+    
+    //MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
-    
+        
     
     }
 //MARK: - Actions, Functions, etc.
 
-
+    @IBAction func whenGameTapGestureTapped(_ sender: UITapGestureRecognizer) {
+        let selectedPoint = sender.location(in: choiceStackView)
+        
+        for choice in choicesImageViews {
+            if choice.frame.contains(selectedPoint) {
+                let currentImage = choice.image
+                playerImageView.image = currentImage
+            }
+        }
+        
+          print("Tap Gesture Recognized")
+    }
+    
 
 
 
