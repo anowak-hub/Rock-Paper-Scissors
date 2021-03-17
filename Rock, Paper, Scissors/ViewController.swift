@@ -45,8 +45,8 @@ class ViewController: UIViewController {
         
         for random in choicesImageViews {
             if random.frame.contains(selectedPoint) {
-              
-                }
+            
+            }
         }
     
     
