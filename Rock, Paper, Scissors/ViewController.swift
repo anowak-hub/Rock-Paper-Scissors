@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//MARK: - UIOutlets, Variables, Constants, etc.
+//MARK: - Outlets, Variables, Constants, etc.
     
     @IBOutlet weak var winnerLabel: UILabel!
     
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     
     
-    //MARK: - ViewDidLoad
+//MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,7 +43,13 @@ class ViewController: UIViewController {
             }
         }
         
-          print("Tap Gesture Recognized")
+        for random in choicesImageViews {
+            if random.frame.contains(selectedPoint) {
+              
+                }
+        }
+    
+    
     }
     
 
