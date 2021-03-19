@@ -93,7 +93,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="U8V-tw-Hn1" firstAttribute="bottom" secondItem="sEP-w5-sSa" secondAttribute="bottomMargin" id="OlH-b5-Pva"/>
@@ -106,7 +106,7 @@
                                 </connections>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7Bh-NL-57p" firstAttribute="leading" secondItem="jLA-SI-zSt" secondAttribute="trailing" constant="32" id="1kc-H1-tpf"/>
                             <constraint firstItem="zuJ-kR-uXn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Yl-YB-1gI"/>
